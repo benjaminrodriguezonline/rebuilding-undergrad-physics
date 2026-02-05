@@ -1,0 +1,22 @@
+1.1
+When we talk about *classical mechanics*, we’re referring to the framework of motion that was largely built by Galileo and Newton. Galileo laid important groundwork in kinematics and introduced early ideas of inertia. Newton then formalized these ideas into what we now call Newton’s three laws of motion. Even though Newton is usually credited with founding classical mechanics, Galileo’s work was essential in shaping the framework Newton ultimately constructed. The mechanics we use in most introductory physics classes today—forces, acceleration, trajectories, and equations of motion—live squarely inside this classical framework.
+
+
+
+Over time, physicists developed alternative formulations of classical mechanics that are mathematically equivalent to Newton’s laws. Two major contributors here are Lagrange and Hamilton. Their formulations describe the same physical laws but use different mathematical tools and perspectives. These are not new theories of physics; they do not replace Newton’s laws. Instead, they offer alternative ways to express the same underlying principles. In many situations, especially when dealing with complex systems, these formulations are more powerful or more convenient than directly applying Newton’s laws.
+
+
+
+Newton’s laws are extremely effective when the physical situation is relatively simple. They work best when objects move in straight lines or simple curves, when the forces acting on each object are easy to identify, and when the motion can naturally be described using standard Cartesian coordinates—x, y, and z. In these cases, the workflow is straightforward: identify the forces, apply Newton’s second law, and solve for the motion. This is the mode of thinking most students are introduced to first, and for good reason—it works very well in a large class of problems.
+
+
+
+However, many real physical systems are what we call *constrained systems*. A constrained system is one in which motion is restricted by geometry or physical connections. The object cannot move freely in all directions; it is confined to a particular path, surface, or relationship with another object. Examples include a bead constrained to slide along a wire, a block constrained to move along an inclined plane, a pendulum constrained to move in a circular arc, or two masses connected by a rigid rod. In Newtonian mechanics, we typically introduce extra forces—such as tension, normal forces, or other constraint forces—simply to enforce the geometry of the motion. These forces may not do any physical work, but they still appear in the equations, making the force analysis more cluttered and sometimes less transparent.
+
+
+
+This is where Lagrangian mechanics begins to show its advantages. Instead of working in x, y, and z and then adding extra forces to enforce constraints, we choose coordinates that naturally describe the system's allowed motion. For a pendulum, that might be an angle; for a bead on a wire, it might be distance along the wire. These are examples of *generalized coordinates*. When we write the equations of motion in terms of these coordinates, the constraints are built directly into the coordinate system itself. The geometry of the problem is handled at the level of how we describe motion, rather than being imposed afterward through additional forces. In this sense, Lagrangian mechanics incorporates constraints into the formulation, rather than requiring us to manually account for them.
+
+
+
+When we talk about “more complex” physical systems, we usually mean systems that are multi-body, highly coupled, non-Cartesian in their natural description, or where force analysis becomes messy very quickly. Examples include double pendulums, Atwood machines with pulleys that have mass, rolling objects that involve both translation and rotation, systems with springs, mechanical linkages, and systems with many degrees of freedom. In Newtonian mechanics, these problems often require writing a separate force equation for each object, adding constraint equations to relate their motions, and then solving a large, coupled system of equations. In Lagrangian mechanics, instead of writing force balances for every object, we write a single scalar function — the Lagrangian — and apply one systematic rule, the Euler–Lagrange equation. The coupling between different parts of the system and the constraints imposed by geometry are handled in a much cleaner and more unified way.
